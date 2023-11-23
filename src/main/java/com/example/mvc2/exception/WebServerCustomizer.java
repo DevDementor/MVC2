@@ -18,7 +18,7 @@ import org.springframework.stereotype.Component;
  * 2023-11-22        Mr.Lee      최초 생성
  */
 @Component
-public class WEbServerCustomizer implements WebServerFactoryCustomizer<ConfigurableWebServerFactory> {
+public class WebServerCustomizer implements WebServerFactoryCustomizer<ConfigurableWebServerFactory> {
 
     @Override
     public void customize(ConfigurableWebServerFactory factory) {
